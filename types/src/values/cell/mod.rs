@@ -8,7 +8,7 @@ use std::{
     ops::{Deref, DerefMut},
     ptr
 };
-use crate::{opaque::OpaqueWrapper, itertools, EnumValueType, Opaque, StructType, Type, U256};
+use crate::{opaque::OpaqueWrapper, Itertools, EnumValueType, Opaque, StructType, Type, U256};
 use super::{Constant, SubValue, Value, ValueError};
 
 pub use path::*;
